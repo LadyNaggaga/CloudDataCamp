@@ -3,7 +3,7 @@ Cloud Data Camp content
 
 Session     | Time  | Activity
 -------- | --- | ---------------
-Azure Subscription and Lab Setup  | 30  | Link to lab
+Azure Subscription and Lab Setup  | 30  | Lab Setup Instructions Coming Soon
 Introduction to Azure Data Analytics  | 30  | <a href='Presentation/Introduction/Introduction.pptx'>Presentation - Introduction to Azure</a>
 Lab: Explore the Portal | 60  | <a href='HOL/HOL1-IntroductionToAzure.md'>HOL 1 - Introduction to Azure</a>
 Hadoop in Azure: HDInsight  | 45  | <a href='Presentation/HDInsight/Hadoop in Azure.pptx'>Presentation - Hadoop in Azure: HDInsight</a>
