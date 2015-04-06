@@ -1,4 +1,4 @@
-# CloudDataCamp
+# Cloud Data Camp
 Cloud Data Camp content
 
 Session     | Time  | Activity
