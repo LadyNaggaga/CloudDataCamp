@@ -52,26 +52,26 @@ namespace DocumentDBWebApp
 
         public IEnumerable<EnergyDocument> GetEnergyData()
         {
-            return _documentClient.CreateDocumentQuery<EnergyDocument>(_documentCollection.DocumentsLink, String.Format("SELECT * FROM {0} t WHERE ISDEFINED(t, 'Kwh')",
+            return _documentClient.CreateDocumentQuery<EnergyDocument>(_documentCollection.DocumentsLink, String.Format("SELECT * FROM {0} t WHERE udf.ISDEFINED(t, 'Kwh')",
                 ConfigurationManager.AppSettings["DocumentCollection"])).ToList();
         }
 
         public IEnumerable<TemperatureDocument> GetTemperatureData()
         {
-            return _documentClient.CreateDocumentQuery<TemperatureDocument>(_documentCollection.DocumentsLink, String.Format("SELECT * FROM {0} t WHERE ISDEFINED(t, 'Temperature')",
+            return _documentClient.CreateDocumentQuery<TemperatureDocument>(_documentCollection.DocumentsLink, String.Format("SELECT * FROM {0} t WHERE udf.ISDEFINED(t, 'Temperature')",
                 ConfigurationManager.AppSettings["DocumentCollection"])).ToList();
         }
 
         public IEnumerable<HumidityDocument> GetHumidityData()
         {
-            return _documentClient.CreateDocumentQuery<HumidityDocument>(_documentCollection.DocumentsLink, String.Format("SELECT * FROM {0} t WHERE ISDEFINED(t, 'Humidity')",
+            return _documentClient.CreateDocumentQuery<HumidityDocument>(_documentCollection.DocumentsLink, String.Format("SELECT * FROM {0} t WHERE udf.ISDEFINED(t, 'Humidity')",
                 ConfigurationManager.AppSettings["DocumentCollection"])).ToList();
             
         }
 
         public IEnumerable<LightDocument> GetLightData()
         {
-            return _documentClient.CreateDocumentQuery<LightDocument>(_documentCollection.DocumentsLink, String.Format("SELECT * FROM {0} t WHERE ISDEFINED(t, 'Lumens')",
+            return _documentClient.CreateDocumentQuery<LightDocument>(_documentCollection.DocumentsLink, String.Format("SELECT * FROM {0} t WHERE udf.ISDEFINED(t, 'Lumens')",
                 ConfigurationManager.AppSettings["DocumentCollection"])).ToList();
         }
     }
