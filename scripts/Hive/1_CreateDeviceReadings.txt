@@ -5,4 +5,4 @@ CREATE EXTERNAL TABLE DeviceReadings (
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\054'
     STORED AS TEXTFILE
-    LOCATION 'wasb://data@<your account name>.blob.core.windows.net/input';
+    LOCATION 'wasb://data@<storage account name>.blob.core.windows.net/input';
