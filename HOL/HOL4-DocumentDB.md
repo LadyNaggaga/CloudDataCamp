@@ -106,7 +106,7 @@ Time to complete: **10 minutes**
 
 1. 	Navigate to the Microsoft Azure portal [https://portal.azure.com/](https://portal.azure.com/).
 
-2. 	Select New -> Everything -> Web and select.
+2. 	Select New -> Everything -> Web App and select.
 
 	![alt text](images/CreateWebsite/CreateWebsiteImg1.png "CreateWebsiteImg1.png")
 
