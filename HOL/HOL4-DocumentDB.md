@@ -39,7 +39,7 @@ The lab will detail how to deploy a number of solutions to Azure which perform t
 
 5. 	Click on **Resource Group** to choose the resource group created in Hands on Lab 1.  Set the location to the same geographic location used for the storage account and previous labs.  
 
-6. 	Once the new DocumentDB account options are configured, click **Create** in the lower left corner of the blade. It can take a few minutes for the DocumentDB account to be created. To check the provisioning status monitor the progress on the Startboard.  
+6. 	Once the new DocumentDB account options are configured, click **Create** in the lower left corner of the blade. It can take a few minutes for the DocumentDB account to be created. To check the provisioning status monitor the progress on the Startboard. Please note the creating DocumentDB can take up to 10 mins. 
 
 	![alt text](images/CreateDocumentDB/createDocumentDBImg3.png "createDocumentDBImg3.png")
 
