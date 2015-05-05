@@ -60,7 +60,7 @@ Configuration of the Storm application will require connecting to the HBase clus
 
 4. **On your local machine**, open a cmd prompt and navigate to the directory where the file was saved in the previous step. 
 
-5. Execute the following command to import the jar into the maven repository.  A copy of this script is available on the course virtual machine under **C:\CloudDataCamp\Scripts\1_mvn.txt**.
+5. Execute the following command to import the jar into the maven repository.  A copy of this script is available on the course virtual machine under **C:\CloudDataCamp\Scripts\Storm\1_mvn.txt**.
 
     ```mvn install:install-file -Dfile=eventhubs-storm-spout-0.9-jar-with-dependencies.jar -DgroupId=com.microsoft.eventhubs -DartifactId=eventhubs-storm-spout -Dversion=0.9 -Dpackaging=jar```
 
