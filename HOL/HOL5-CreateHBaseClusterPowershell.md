@@ -75,7 +75,7 @@ Close the PowerShell tab but keep the ISE open.
 Only create the vnet using this method if you have NO VNets in your current subscription, uploading the xml document described will delete any existing VNets.  Use with care!
 
 1. Using your local file explorer navigate to the assets directory
-2. Edit file azureVirtualNetwork.netcfg
+2. Edit file azureVirtualNetwork.netcfg located C:\CloudDataCamp\assets\azureVirtualNetwork.cfg
 3. Modify text `Location="North Europe"` and set a location appropriate for you, save the file.
 4. In PowerShell ISE, navigate to the location of the file.
 5. Upload the file using the following command, you need to provide an absolute path to the file otherwise it will generate a error
