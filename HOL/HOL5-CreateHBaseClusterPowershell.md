@@ -145,7 +145,7 @@ We will create a Azure Virtual Network to which we will attach a HBaseCluster.  
 
 In a previous lab the HDInsight cluster was provisioned using the Management Portal. Most application developers and administrators will create a management script using PowerShell or command line to operationalize the generation of clusters.  The following steps will create a new HBase cluster that will be used for multiple labs in the course.   
 
-1.	Review and copy the following script to a new tab in the PowerShell ISE.  A copy of this script is available on the virtual machine under **C:\CloudDataCamp\Scripts\PowerShell\1_CreateHBaseCluster.ps1**.
+1.	Review and copy the following script to a new tab in the PowerShell ISE.  A copy of this script is available on the virtual machine under **C:\CloudDataCamp\Scripts\HBase\1_CreateHBaseCluster.ps1**.
 
 	```PowerShell
 	$hbaseClusterName = "<HBase cluster name>"
